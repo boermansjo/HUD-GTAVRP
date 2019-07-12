@@ -1,0 +1,39 @@
+input[type="radio"] {
+    display: none;
+}
+
+.type-radio{
+  margin-bottom: 10px;
+
+  label{
+    display: inline-block;
+    height: 18px;
+  }
+  .color{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: -2px;
+    font-size: 0;
+    border: 1px solid rgba(228, 228, 228, 0.3);
+    box-sizing: border-box;
+    border-radius: 200px;
+
+    &:after{
+      opacity: 0;
+      content: '';
+      position: absolute;
+      top: 9px;
+      left: 7px;
+      width: 13px;
+      height: 9px;
+      background: url("assets/radio-check.png") no-repeat;
+      background-size: cover;
+      transition: all .15s ease-in-out;
+    }
+  }
+}
+
+input[type="radio"]:checked + span{
+  &:after{ opacity: 1; }
+}
