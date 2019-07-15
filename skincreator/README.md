@@ -34,7 +34,7 @@ Nicolas Marx (alias [Naiko](https://twitter.com/naikzer_)) is the only owner of 
 * [Speedometer](../speedometer) 
 * [Inventory]() 
 * [Messaging service]() 
-* [Hunger/Thirst]() 
+* [Hunger/Thirst](../hungerthirst) 
 
 ## Dependencies
 
