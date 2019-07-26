@@ -1,12 +1,13 @@
-# Speedometer
+# Hunger / Thirst
 
 **Do not use these scripts if you are not comfortable with development.**
 **If you have some issues with code, ask the community on the official [FiveM's topic](https://forum.fivem.net/t/preview-enhanced-hud/634217).**
 
 ## How to install
 
-* Copy and paste ```speedometer``` folder to ```resources```
-* Add ```start speedometer``` to your ```server.cfg``` file
+* Import ```hungerthirst.sql``` to your database
+* Copy and paste ```hungerthirst``` folder to ```resources```
+* Add ```start hungerthirst``` to your ```server.cfg``` file
 
 ## Files
 
@@ -24,4 +25,4 @@ Nicolas Marx (alias [Naiko](https://twitter.com/naikzer_)) is the only owner of 
 * [Speedometer](../speedometer) 
 * [Inventory]() 
 * [Messaging service]() 
-* [Hunger/Thirst](../hungerthirst)  
+* [Hunger/Thirst](../hungerthirst) 
